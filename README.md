@@ -15,14 +15,14 @@ Evidencia de funcionalidad:
 ![historial1](https://github.com/Diegospf12/ExamenFinalSoftware/blob/main/images/Captura%20de%20pantalla%202023-11-30%20a%20la(s)%2020.06.09.png)
 ![historial2](https://github.com/Diegospf12/ExamenFinalSoftware/blob/main/images/Captura%20de%20pantalla%202023-11-30%20a%20la(s)%2020.07.26.png)
 
-## Pregunta 3
+## Pregunta 2
 
 Para la realizacion de pruebas unitarias (Unit Test) se usó pytest
 
 ![historial2](https://github.com/Diegospf12/ExamenFinalSoftware/blob/main/images/Captura%20de%20pantalla%202023-11-30%20a%20la(s)%2020.13.34.png)
 
 
-## Pregunta 2
+## Pregunta 3
 
 Para soportar un valor máximo de 200 soles a transferir por día, necesitarías hacer los siguientes cambios:
 
