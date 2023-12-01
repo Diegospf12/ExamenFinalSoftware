@@ -1,6 +1,21 @@
 # ExamenFinalSoftware
 
+## Pregunta 1
+
 Para la API se uso FastAPI y para la realizacion de pruebas unitarias (Unit Test), se usó pytest
+
+Evidencia de funcionalidad:
+/billetera/contactos?minumero=XXXX
+![contactos](https://github.com/Diegospf12/ExamenFinalSoftware/blob/main/images/Captura%20de%20pantalla%202023-11-30%20a%20la(s)%2020.05.12.png)
+
+/billetera/pagar?minumero=XXXX&numerodestino=YYYY&valor=ZZZZ
+![pagar](https://github.com/Diegospf12/ExamenFinalSoftware/blob/main/images/Captura%20de%20pantalla%202023-11-30%20a%20la(s)%2020.05.45.png)
+
+/billetera/historial?minumero=XXXX
+![historial1](https://github.com/Diegospf12/ExamenFinalSoftware/blob/main/images/Captura%20de%20pantalla%202023-11-30%20a%20la(s)%2020.06.09.png)
+![historial2](https://github.com/Diegospf12/ExamenFinalSoftware/blob/main/images/Captura%20de%20pantalla%202023-11-30%20a%20la(s)%2020.07.26.png)
+
+## Pregunta 2
 
 Para soportar un valor máximo de 200 soles a transferir por día, necesitarías hacer los siguientes cambios:
 
