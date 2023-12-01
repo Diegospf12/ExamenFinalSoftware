@@ -24,15 +24,15 @@ Para la realizacion de pruebas unitarias (Unit Test) se usó pytest
 
 ## Pregunta 3
 
-Para soportar un valor máximo de 200 soles a transferir por día, necesitarías hacer los siguientes cambios:
+Para soportar un valor máximo de 200 soles a transferir por día, se necesitaria hacer los siguientes cambios:
 
 1. **Clase Cuenta**:
-  Agregaría un nuevo atributo para rastrear la cantidad total de dinero que se ha transferido en el día actual. También agregaría un        método para restablecer este atributo al final del día.
+  Agregaría un nuevo atributo para rastrear la cantidad total de dinero que se ha transferido en el día actual. También agregaría un método para restablecer este atributo al final del día.
 
 3. **Método pagar**:
-  Modificaría este método para que compruebe si la transferencia haría que la cantidad total de dinero transferido en el día actual         exceda el límite diario. Si es así, el método debería rechazar la transferencia.
+  Modificaría este método para que compruebe si la transferencia haría que la cantidad total de dinero transferido en el día actual exceda el límite diario. Si es así, el método debería rechazar la transferencia.
 
-En cuanto a los nuevos casos de prueba, podrías agregar los siguientes:
+En cuanto a los nuevos casos de prueba, se debería agregar los siguientes:
 
 1. Un caso de prueba que verifica que se puede transferir exactamente 200 soles en un día.
 
