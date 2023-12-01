@@ -40,4 +40,4 @@ En cuanto a los nuevos casos de prueba, se debería agregar los siguientes:
 
 3. Un caso de prueba que verifica que, después de que se ha alcanzado el límite diario, no se puede transferir más dinero hasta el día siguiente.
 
-En cuanto al riesgo de "romper" lo que ya funciona, si bien esta nueva funcionalidad si va a intervenir en la forma de realizar los pagos, el unico método que tenemos que modifica directamente la BD es el de **/billetera/pagar**, ya que los demás solo devuelven la información que ya se encuentra en la BD, por lo tanto si manejamos bien esta nueva verificación del saldo en ese método, las demás funcinalidades no deberían verse afectadas, por lo tanto la API tampoco.
+En cuanto al riesgo de "romper" lo que ya funciona, si bien esta nueva funcionalidad si va a intervenir en la forma de realizar los pagos, el unico método que tenemos que modifica directamente la BD es el de **/billetera/pagar**, ya que los demás solo devuelven la información que ya se encuentra en la BD, por lo tanto si manejamos bien esta nueva verificación del saldo en ese método, las demás funcionalidades no deberían verse afectadas, por lo tanto la API tampoco.
