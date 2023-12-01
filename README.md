@@ -19,6 +19,8 @@ Evidencia de funcionalidad:
 
 Para la realizacion de pruebas unitarias (Unit Test) se usó pytest
 
+![historial2](https://github.com/Diegospf12/ExamenFinalSoftware/blob/main/images/Captura%20de%20pantalla%202023-11-30%20a%20la(s)%2020.13.34.png)
+
 
 ## Pregunta 2
 
