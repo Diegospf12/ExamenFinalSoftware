@@ -2,7 +2,7 @@
 
 ## Pregunta 1
 
-Para la API se uso FastAPI y para la realizacion de pruebas unitarias (Unit Test), se usó pytest
+Para la API se uso FastAPI
 
 Evidencia de funcionalidad:
 /billetera/contactos?minumero=XXXX
@@ -14,6 +14,11 @@ Evidencia de funcionalidad:
 /billetera/historial?minumero=XXXX
 ![historial1](https://github.com/Diegospf12/ExamenFinalSoftware/blob/main/images/Captura%20de%20pantalla%202023-11-30%20a%20la(s)%2020.06.09.png)
 ![historial2](https://github.com/Diegospf12/ExamenFinalSoftware/blob/main/images/Captura%20de%20pantalla%202023-11-30%20a%20la(s)%2020.07.26.png)
+
+## Pregunta 3
+
+Para la realizacion de pruebas unitarias (Unit Test) se usó pytest
+
 
 ## Pregunta 2
 
