@@ -31,12 +31,14 @@ class Cuenta:
         self.historial = []
 
     def pagar(self, numero_destino: str, valor: int):
-        if self.saldo >= valor:
+        if numero_destino not in self.contactos:
+            return "El número de destino no es un contacto"
+        elif self.saldo >= valor:
             self.saldo -= valor
             self.historial.append(Operacion(numero_destino, valor))
             return True
         else:
-            return False
+            return "Saldo insuficiente"
 
     def historial(self):
         return self.historial
@@ -56,14 +58,15 @@ async def contactos(minumero: str):
 async def pagar(minumero: str, numerodestino: str, valor: int):
     for cuenta in BD:
         if cuenta.numero == minumero:
-            if cuenta.pagar(numerodestino, valor):
+            resultado = cuenta.pagar(numerodestino, valor)
+            if resultado == True:
                 for c in BD:
                     if c.numero == numerodestino:
                         c.saldo += valor
                         c.historial.append(f'Pago recibido de {valor} de {cuenta.nombre} en {datetime.now().strftime("%d/%m/%Y")}')
                 return "Realizado en " + datetime.now().strftime("%d/%m/%Y")
             else:
-                return "Saldo insuficiente"
+                return resultado
 
 @app.get('/billetera/historial')
 async def historial(minumero: str):
