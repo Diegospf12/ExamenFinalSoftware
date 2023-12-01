@@ -57,7 +57,6 @@ async def pagar(minumero: str, numerodestino: str, valor: int):
     for cuenta in BD:
         if cuenta.numero == minumero:
             if cuenta.pagar(numerodestino, valor):
-                cuenta.saldo -= valor
                 for c in BD:
                     if c.numero == numerodestino:
                         c.saldo += valor
